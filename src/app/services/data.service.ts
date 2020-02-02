@@ -34,6 +34,7 @@ export class DataService {
 
   //Get Questions from localStrorage
   getQuestions(){
+    //remember to clear localStorage in Browser. Sometimes it causes problem.
     if (localStorage.getItem('questions') === null){
        this.questions = [];
      }else{
@@ -44,7 +45,7 @@ export class DataService {
 
   //Add Questions to localStorage
   addQuestion(question: Question){
-    //this.questions.unshift(question);
+    this.questions.unshift(question);
 
     let questionsLocal;
      if (localStorage.getItem('questions') === null){
