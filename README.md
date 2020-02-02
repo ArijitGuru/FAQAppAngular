@@ -44,4 +44,6 @@ ng g component components/questionList
 
 ng g service services/data
 
+ng build
+
 
