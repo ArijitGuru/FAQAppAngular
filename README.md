@@ -25,3 +25,23 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+
+## Angular commands used 
+
+ng new faqappangular
+
+## Not using Bootstrap CDN, instead we are updating package.json file
+npm install bootstrap@4.0.0-alpha.6 jquery tether --save
+
+## 
+npm install
+
+ng server
+
+ng g component components/navbar
+ng g component components/questionList
+
+ng g service services/data
+
+
